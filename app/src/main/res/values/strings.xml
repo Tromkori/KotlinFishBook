@@ -1,0 +1,9 @@
+<!--индефекаторы меню-->
+<resources>
+    <string name="app_name">KotlinFishBook</string>
+    <string name="fish">Рыба</string>
+    <string name="nazivki">Наживки</string>
+    <string name="snasty">Снасти</string>
+    <string name="history">Рыбацкие истории</string>
+    <string name="Gruppa">Группа 2</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Создание меню с использование navigation_view.Используется название, id, изображение.-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/fish"
+            android:id="@+id/id_fish"
+            android:icon="@drawable/fish"/>
+        <item android:title="@string/nazivki"
+            android:id="@+id/id_nazivki"
+            android:icon="@drawable/nazivki"/>
+        <item android:title="@string/snasty"
+            android:id="@+id/id_snasty"
+            android:icon="@drawable/snasty"/>
+
+    </group>
+    <item android:title="@string/Gruppa">
+        <menu>
+            <item android:title="@string/history"
+                android:id="@+id/id_history"
+                android:icon="@drawable/history"/>
+        </menu>
+    </item>
+
+</menu>
